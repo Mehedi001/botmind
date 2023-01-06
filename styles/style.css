@@ -42,7 +42,7 @@ header {
     color: #005FAC;
     width: 160px;
     height: 64px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 0;
 }
 
@@ -144,6 +144,34 @@ header {
 }
 
 .gr-text {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.grbackground-two {
+    background: linear-gradient(to left, rgb(0, 95, 172), rgba(0, 95, 172, 0)),
+        url('../images/goal.jpg');
+    width: 60%;
+    height: 180px;
+    background-size: cover;
+    color: white;
+    padding: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 230px;
+
+}
+
+.gredient-text-two {
+    text-align: right;
+
+}
+
+.gr-text-two {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
